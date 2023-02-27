@@ -4,8 +4,9 @@ import { AiOutlineDown } from 'react-icons/ai'
 import ethLogo from '../assets/eth.png'
 import Modal from 'react-modal'
 import { useRouter } from 'next/router'
-import  Header  from './Header'
-import Footer from './Footer'
+import {FaArrowDown} from 'react-icons/fa'
+import  Trade  from '../pages/Trade'
+import Footer from '../components/Footer'
 
 const style = {
     wrapper_body: `w-screen flex items-center justify-center mt-14 mb-10 `,
@@ -25,7 +26,7 @@ const style = {
 const Swap  = () => {
 return (
     <div className={style.wrapper}>
-      <Header/>
+      <Trade/>
     <div className={style.wrapper_body}>
     <div className={style.content}>
       
@@ -53,12 +54,14 @@ return (
             </div>
           </div>
         </div>
+        <div className={style.arrow}><FaArrowDown/></div>
         <div className={style.transferPropContainer}>
           <input
             type='text'
             className={style.transferPropInput}
-            placeholder='0x...'
-            onChange={e => handleChange(e, 'addressTo')}
+            placeholder='0.0'
+            pattern='^[0-9]*[.,]?[0-9]*$'
+            onChange={e => handleChange(e, 'amount')}
           />
           <div className={style.currencySelector}></div>
         </div>

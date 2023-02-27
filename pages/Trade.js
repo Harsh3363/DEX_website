@@ -5,6 +5,8 @@ import { AiOutlineDown } from 'react-icons/ai'
 import { HiOutlineDotsVertical } from 'react-icons/hi'
 import {RxDropdownMenu} from 'react-icons/rx'
 import ethLogo from "../assets/eth.png"
+import Footer from '../components/Footer';
+import Swap from '../components/Swap';
 
 const style = {
     wrapper: `p-4 w-screen flex justify-between items-center`,
@@ -27,6 +29,7 @@ const Header = () => {
 
     return (
         <div className={style.wrapper}>
+          {/* <Swap/> */}
             <div className={style.headerLogo}>
             {/* <button class="text-white bg-#172A42 hover:bg-#172A42 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button">
                Dropdown
@@ -97,7 +100,9 @@ const Header = () => {
             <HiOutlineDotsVertical />
           </div>
         </div> */}
+        
       </div>
+      
         </div>
         
         

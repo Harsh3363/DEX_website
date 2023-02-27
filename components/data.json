@@ -1,0 +1,29 @@
+{
+  "resources": [
+    {
+      "title": "Some sort of title",
+      "link": "https://bitgertswap.com/#/",
+      "imageUrl": "https://bitgertswapserver.com/api/images/banner-0.jpg"
+    },
+    {
+      "title": "Some sort of title",
+      "link": "https://bitgertswap.com/#/",
+      "imageUrl": "https://bitgertswapserver.com/api/images/banner-1.jpg"
+    },
+    {
+      "title": "Some sort of title",
+      "link": "https://bitgertswap.com/#/",
+      "imageUrl": "https://bitgertswapserver.com/api/images/banner-0.jpg"
+    },
+    {
+      "title": "Some sort of title",
+      "link": "https://bitgertswap.com/#/",
+      "imageUrl": "https://bitgertswapserver.com/api/images/banner-1.jpg"
+    },
+    {
+      "title": "Some sort of title",
+      "link": "https://bitgertswap.com/#/",
+      "imageUrl": "https://bitgertswapserver.com/api/images/banner-0.jpg    "
+    }
+  ]
+}

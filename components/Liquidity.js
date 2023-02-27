@@ -7,8 +7,8 @@ import { useRouter } from 'next/router'
 import { BsArrowCounterclockwise } from 'react-icons/bs'
 import {AiFillQuestionCircle} from 'react-icons/ai'
 import { RxMixerHorizontal } from 'react-icons/rx'
-import Header from './Header'
-import Footer from './Footer'
+import Trade from '../pages/Trade'
+import Footer from '../components/Footer'
 
 const style = {
     wrapper_body: `w-screen flex items-center justify-center mt-14 mb-10 `,
@@ -28,7 +28,7 @@ const style = {
 const Liquidity = () => {
     return (
         <div className={style.wrapper}>
-            <Header />
+            <Trade />
             <div className={style.wrapper_body}>
                 <div className={style.content}>
 

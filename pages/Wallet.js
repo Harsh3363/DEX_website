@@ -7,8 +7,8 @@ import { AiOutlineDown } from 'react-icons/ai'
 import ethLogo from '../assets/eth.png'
 import Modal from 'react-modal'
 import { useRouter } from 'next/router'
-import  Navbar  from './Navbar'
-import Footer from './Footer'
+import  Navbar  from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const style = {
     wrapper_body: `w-screen flex items-center justify-center mt-18 mb-10 `,
