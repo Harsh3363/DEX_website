@@ -1,39 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import Swap from "../components/Swap"
-import Bridge from "../pages/Bridge"
-import Wallet from "../pages/Wallet"
-import { Routes, Route } from "react-router-dom";
-import Liquidity from '../components/Liquidity'
-import Reward from '../components/Reward'
-import Home_page from "../pages/Home_page"
-import Trade from  "../pages/Trade"
+import Home_page from "./home"
 
 const style = {
   wrapper: `h-screen max-h-screen h-min-screen w-screen bg-[#2D242F] text-white select-none flex flex-col justify-between`,
 }
 
 export default function Home()  {
-  // return (
-  //   <div className={style.wrapper}>
-  //     <Routes>
-  //       <Route exact path="/" element={<Main />} />
-  //       <Route exact path="/Bridge" element={<Bridge />} />
-  //     </Routes>
-  //   </div>
-  // );
-  
 
-  return (
+  return(
     <div className={style.wrapper}>
-      {/* <Home_page/> */}
-      {/* <Wallet/> */}
-      {/* <Bridge/> */}
-      <Swap/>
-      {/* <Trade/> */}
-      {/* <Reward/> */}
-      {/* <Liquidity/> */}
+      <Home_page/>
     </div>
   )
 }
