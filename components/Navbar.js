@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.headerLogo}>
-        <Image src={ethLogo} alt='ethLogo' height={40} width={40} />
+        {/* <Image src={ethLogo} alt='ethLogo' height={40} width={40} /> */}
       </div>
       <div className={style.nav}>
         <div className={style.navItemsContainer}>

@@ -5,7 +5,6 @@ import ethLogo from '../assets/eth.png'
 import Modal from 'react-modal'
 import { useRouter } from 'next/router'
 import {FaArrowDown} from 'react-icons/fa'
-import  Trade  from '../pages/Trade'
 import Footer from '../components/Footer'
 
 const style = {
@@ -26,7 +25,6 @@ const style = {
 const Swap  = () => {
 return (
     <div className={style.wrapper}>
-      <Trade/>
     <div className={style.wrapper_body}>
     <div className={style.content}>
       

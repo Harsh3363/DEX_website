@@ -47,7 +47,7 @@ const main = () => {
                     <div className={style.currencySelector}>
                         <div >
                             <div className={style.currencySelectorIcon}>
-                                <Image src={ethLogo} alt='eth logo' height={20} width={20} />
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
                         <div className={style.currencySelectorTicker}>EVO</div>
@@ -58,7 +58,7 @@ const main = () => {
                     <div className={style.currencySelector}>
                         <div >
                             <div className={style.currencySelectorIcon}>
-                                <Image src={ethLogo} alt='eth logo' height={20} width={20} />
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
                         <div className={style.currencySelectorTicker}>WBRISE</div>
@@ -69,7 +69,7 @@ const main = () => {
                     <div className={style.currencySelector}>
                         <div >
                             <div className={style.currencySelectorIcon}>
-                                <Image src={ethLogo} alt='eth logo' height={20} width={20} />
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
                         <div className={style.currencySelectorTicker}>USDT</div>
@@ -80,7 +80,7 @@ const main = () => {
                     <div className={style.currencySelector}>
                         <div >
                             <div className={style.currencySelectorIcon}>
-                                <Image src={ethLogo} alt='eth logo' height={20} width={20} />
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
                         <div className={style.currencySelectorTicker}>SPHYNX</div>
@@ -91,7 +91,7 @@ const main = () => {
                     <div className={style.currencySelector}>
                         <div >
                             <div className={style.currencySelectorIcon}>
-                                <Image src={ethLogo} alt='eth logo' height={20} width={20} />
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
                         <div className={style.currencySelectorTicker}>YPC</div>

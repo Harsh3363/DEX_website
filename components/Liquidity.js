@@ -7,7 +7,6 @@ import { useRouter } from 'next/router'
 import { BsArrowCounterclockwise } from 'react-icons/bs'
 import {AiFillQuestionCircle} from 'react-icons/ai'
 import { RxMixerHorizontal } from 'react-icons/rx'
-import Trade from '../pages/Trade'
 import Footer from '../components/Footer'
 
 const style = {
@@ -28,7 +27,6 @@ const style = {
 const Liquidity = () => {
     return (
         <div className={style.wrapper}>
-            <Trade />
             <div className={style.wrapper_body}>
                 <div className={style.content}>
 

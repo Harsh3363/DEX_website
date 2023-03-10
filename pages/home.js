@@ -37,7 +37,7 @@ const main = () => {
         <Navbar />
         <div className={style.wrapper_body}>
           <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
-            <Carousel />
+            {/* <Carousel /> */}
           </div>
         </div>
         <Footer />
