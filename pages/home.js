@@ -8,6 +8,7 @@ import Modal from 'react-modal'
 import { useRouter } from 'next/router'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Chart from  "../components/Chart"
 import Carousel from "../components/Carousel"
 import Header from '../components/SideNavbar'
 
@@ -37,7 +38,9 @@ const main = () => {
         <Navbar />
         <div className={style.wrapper_body}>
           <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
-            {/* <Carousel /> */}
+            <Carousel />
+            <Chart/>
+
           </div>
         </div>
         <Footer />
