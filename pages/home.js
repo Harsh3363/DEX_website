@@ -8,7 +8,7 @@ import Modal from 'react-modal'
 import { useRouter } from 'next/router'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Chart from  "../components/Chart"
+// import Chart from  "../components/Chart"
 import Carousel from "../components/Carousel"
 import Header from '../components/SideNavbar'
 
