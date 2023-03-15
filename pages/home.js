@@ -1,16 +1,11 @@
 import Image from 'next/image'
-import { RiSettings3Fill } from 'react-icons/ri'
-import { BsArrowCounterclockwise } from 'react-icons/bs'
-import { FaArrowDown } from 'react-icons/fa'
-import { AiOutlineDown } from 'react-icons/ai'
 import ethLogo from '../assets/eth.png'
-import Modal from 'react-modal'
-import { useRouter } from 'next/router'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Chart from  "../components/Chart"
-import Carousel from "../components/Carousel"
 import Header from '../components/SideNavbar'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
 
 
 const style = {
@@ -38,8 +33,16 @@ const main = () => {
         <Navbar />
         <div className={style.wrapper_body}>
           <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
-            <Carousel />
-//             <Chart/>
+          <Carousel>
+                <div>
+                    <img src="https://bitgertswapserver.com/api/images/banner-0.jpg" />
+                    {/* <p className="legend">some random text </p> */}
+                </div>
+                <div>
+                    <img src="https://bitgertswapserver.com/api/images/banner-1.jpg"/>
+                    {/* <p className="legend">some random text</p> */}
+                </div>
+            </Carousel>
 
           </div>
         </div>
