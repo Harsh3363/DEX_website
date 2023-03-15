@@ -39,7 +39,15 @@ const main = () => {
                     {/* <p className="legend">some random text </p> */}
                 </div>
                 <div>
-                    <img src="https://bitgertswapserver.com/api/images/banner-1.jpg"/>
+                    <img src="https://bitgertswapserver.com/api/images/banner-0.jpg"/>
+                    {/* <p className="legend">some random text</p> */}
+                </div>
+                <div>
+                    <img src="https://bitgertswapserver.com/api/images/banner-0.jpg"/>
+                    {/* <p className="legend">some random text</p> */}
+                </div>
+                <div>
+                    <img src="https://bitgertswapserver.com/api/images/banner-0.jpg"/>
                     {/* <p className="legend">some random text</p> */}
                 </div>
             </Carousel>
