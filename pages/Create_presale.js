@@ -157,7 +157,7 @@ const Step1 = () => (
                 type="text"
                 id="Token Address"
                 name="Token Address"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
         </div>
         <div className="mb-4">
@@ -168,7 +168,7 @@ const Step1 = () => (
                 type="text"
                 id="Token Name"
                 name="Token Name"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
         </div>
         <div className="mb-4">
@@ -179,7 +179,7 @@ const Step1 = () => (
                 type="email"
                 id="Token Email"
                 name="Token Email"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
         </div>
         <div className="mb-4">
@@ -190,7 +190,7 @@ const Step1 = () => (
                 type="email"
                 id="Token Decimal"
                 name="Token Decimal"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
         </div>
     </div>
@@ -210,7 +210,7 @@ const Step2 = () => (
                 type="text"
                 id="password"
                 name="password"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -222,7 +222,7 @@ const Step2 = () => (
                 type="text"
                 id="password"
                 name="password"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -234,7 +234,7 @@ const Step2 = () => (
                 type="text"
                 id="password"
                 name="password"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
         </div>
     </div>
@@ -254,7 +254,7 @@ const Step3 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -268,7 +268,7 @@ const Step3 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             %
         </div>
@@ -288,7 +288,7 @@ const Step4 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -300,7 +300,7 @@ const Step4 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -312,7 +312,7 @@ const Step4 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -324,15 +324,17 @@ const Step4 = () => (
                 type="text"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
-            
+            <textarea id="message" rows="2" class="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+
         </div>
     </div>
 );
 const Step5 = () => (
     <div>
         {/* <h3 className="text-lg font-medium mb-4">Step 2</h3> */}
+        
         <div className="mb-4">
         <label
                 className="block font-medium mb-2 text-gray-700"
@@ -345,7 +347,7 @@ const Step5 = () => (
                 type="date"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -357,7 +359,7 @@ const Step5 = () => (
                 type="date"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -369,7 +371,7 @@ const Step5 = () => (
                 type="date"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -381,7 +383,7 @@ const Step5 = () => (
                 type="date"
                 id="text"
                 name="text"
-                className="w-full border border-gray-400 p-2"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             {/* <label
                 className="block font-medium mb-2 text-gray-700"

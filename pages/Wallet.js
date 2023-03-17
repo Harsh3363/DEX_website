@@ -1,11 +1,11 @@
 
 import { AiFillWallet } from 'react-icons/ai'
-import Navbar from '../components/Navbar'
+import  Navbar  from '../components/Navbar'
 import Header from '../components/SideNavbar'
 import Footer from '../components/Footer'
 
 const style = {
-    outerWrapper: `h-screen max-h-screen h-min-screen  bg-[#2D242F] text-white select-none flex flex-col justify-between `,
+    outerWrapper: `h-screen max-h-screen h-min-screen w-screen bg-[#2D242F] text-white select-none flex flex-col justify-between`,
     wrapper_body: `w-screen flex items-center justify-center mt-18 mb-10 `,
     content: `bg-[#191B1F] w-[25rem]  rounded-2xl p-4`,
     formHeader: `px-2 flex items-center justify-between font-semibold text-xl`,
@@ -24,125 +24,81 @@ const style = {
 const main = () => {
     return (
         <div className={style.outerWrapper}>
-            <Header />
+            <Header/>
             <div className={style.wrapper}>
-                <Navbar />
-                <div className={style.wrapper_body}>
-                    <div className={style.content}>
-                        <div className={style.formHeader}>
+            <Navbar/>
+        <div className={style.wrapper_body}>
+            <div className={style.content}>
+                <div className={style.formHeader}>
 
-                            <div className='text-sky-500 m-3'>Wallet
-                            </div>
-                            <div><AiFillWallet /></div>
-                        </div>
+                    <div className='text-sky-500 m-3'>Wallet
+                    </div>
+                    <div><AiFillWallet /></div>
+                </div>
 
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>EVO</div>
-
+                <div className={style.transferPropContainer}>
+                    <div className={style.currencySelector}>
+                        <div >
+                            <div className={style.currencySelectorIcon}>
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
                             </div>
                         </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>WBRISE</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>USDT</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>SPHYNX</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>EVO</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>WBRISE</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>USDT</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>SPHYNX</div>
-
-                            </div>
-                        </div>
-                        <div className={style.transferPropContainer}>
-                            <div className={style.currencySelector}>
-                                <div >
-                                    <div className={style.currencySelectorIcon}>
-                                        {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
-                                    </div>
-                                </div>
-                                <div className={style.currencySelectorTicker}>YPC</div>
-
-                            </div>
-                        </div>
+                        <div className={style.currencySelectorTicker}>EVO</div>
 
                     </div>
                 </div>
-                <Footer />
+                <div className={style.transferPropContainer}>
+                    <div className={style.currencySelector}>
+                        <div >
+                            <div className={style.currencySelectorIcon}>
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
+                            </div>
+                        </div>
+                        <div className={style.currencySelectorTicker}>WBRISE</div>
+
+                    </div>
+                </div>
+                <div className={style.transferPropContainer}>
+                    <div className={style.currencySelector}>
+                        <div >
+                            <div className={style.currencySelectorIcon}>
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
+                            </div>
+                        </div>
+                        <div className={style.currencySelectorTicker}>USDT</div>
+
+                    </div>
+                </div>
+                <div className={style.transferPropContainer}>
+                    <div className={style.currencySelector}>
+                        <div >
+                            <div className={style.currencySelectorIcon}>
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
+                            </div>
+                        </div>
+                        <div className={style.currencySelectorTicker}>SPHYNX</div>
+
+                    </div>
+                </div>
+                <div className={style.transferPropContainer}>
+                    <div className={style.currencySelector}>
+                        <div >
+                            <div className={style.currencySelectorIcon}>
+                                {/* <Image src={ethLogo} alt='eth logo' height={20} width={20} /> */}
+                            </div>
+                        </div>
+                        <div className={style.currencySelectorTicker}>YPC</div>
+
+                    </div>
+                </div>
+
             </div>
+            </div>
+            <Footer/>
+        </div>
         </div>
 
-
+       
     )
 }
 
