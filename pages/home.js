@@ -1,11 +1,10 @@
-import Image from 'next/image'
-import ethLogo from '../assets/eth.png'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 // import Chart from  "../components/Chart"
 import Header from '../components/SideNavbar'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
+import { Chart } from "react-google-charts";
 
 
 const style = {
@@ -53,6 +52,15 @@ const main = () => {
             </Carousel>
 
           </div>
+          {/* <Chart
+
+        className='ml-16 bg-black'
+  chartType="ScatterChart"
+  data={[["Age", "Weight"], [4, 5.5], [8, 12]]}
+  width="80%"
+  height="400px"
+  legendToggle
+/> */}
         </div>
         <Footer />
       </div>
