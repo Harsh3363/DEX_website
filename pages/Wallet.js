@@ -1,12 +1,5 @@
-import Image from 'next/image'
-import { RiSettings3Fill } from 'react-icons/ri'
-import { BsArrowCounterclockwise } from 'react-icons/bs'
-import { AiOutlineArrowDown } from 'react-icons/ai'
+
 import { AiFillWallet } from 'react-icons/ai'
-import { AiOutlineDown } from 'react-icons/ai'
-import ethLogo from '../assets/eth.png'
-import Modal from 'react-modal'
-import { useRouter } from 'next/router'
 import  Navbar  from '../components/Navbar'
 import Header from '../components/SideNavbar'
 import Footer from '../components/Footer'
