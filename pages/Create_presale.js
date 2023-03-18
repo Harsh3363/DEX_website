@@ -52,11 +52,11 @@ const main = () => {
                         </div>
 
                         <div className={style.wrapper}>
-                            <div className="bg-grey p-2 rounded-lg shadow-md w-full lg:max-w-xl">
+                            <div className="bg-grey p-2 rounded-lg shadow-md w-full lg:max-w-xl ">
                                 {/* <h2 className="text-lg font-medium mb-4">Step {step} of 5</h2> */}
                                 <div className="flex mb-4 ">
                                     <div
-                                        className={`w-1/2 border-r border-gray-400 ${step === 1 ? "bg-blue-500 text-black" : "bg-gray-200"
+                                        className={`w-1/2 border-r border-gray-400  ${step === 1 ? "bg-blue-500 text-black" : "bg-gray-200"
                                             } p-2 text-center cursor-pointer`}
                                         onClick={() => setStep(1)}
                                     >
@@ -150,47 +150,51 @@ const Step1 = () => (
     <div>
         {/* <h3 className="text-lg font-medium mb-4">Step 1</h3> */}
         <div className="mb-4">
-            <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Address">
+            {/* <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Address">
                 Token Address
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="Token Address"
                 name="Token Address"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder=" Token Address"
             />
         </div>
         <div className="mb-4">
-            <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Name">
+            {/* <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Name">
                 Token Name
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="Token Name"
                 name="Token Name"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Token Name"
             />
         </div>
         <div className="mb-4">
-            <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Email">
+            {/* <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Email">
                 Token Email
-            </label>
+            </label> */}
             <input
                 type="email"
                 id="Token Email"
                 name="Token Email"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Token Email"
             />
         </div>
         <div className="mb-4">
-            <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Decimal">
+            {/* <label className="block font-medium mb-2 text-gray-700" htmlFor="Token Decimal">
                 Token Decimal
-            </label>
+            </label> */}
             <input
                 type="email"
                 id="Token Decimal"
                 name="Token Decimal"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Token Decimal"
             />
         </div>
     </div>
@@ -200,41 +204,58 @@ const Step2 = () => (
     <div>
         {/* <h3 className="text-lg font-medium mb-4">Step 2</h3> */}
         <div className="mb-4">
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Soft Cap*(BRISE)
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="password"
                 name="password"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Soft Cap*(BRISE)"
             />
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Hard Cap*(BRISE)
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="password"
                 name="password"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Hard Cap*(BRISE)"
             />
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Soft Cap*(BRISE)
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="password"
                 name="password"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Soft Cap*(BRISE)"
+            />
+            <input
+                type="text"
+                id="password"
+                name="password"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Soft Cap*(BRISE)"
+            />
+            <input
+                type="text"
+                id="password"
+                name="password"
+                className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Soft Cap*(BRISE)"
             />
         </div>
     </div>
@@ -255,6 +276,7 @@ const Step3 = () => (
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="%"
             />
             <label
                 className="block font-medium mb-2 text-gray-700"
@@ -269,8 +291,9 @@ const Step3 = () => (
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Per BRISE"
             />
-            %
+            
         </div>
     </div>
 );
@@ -278,55 +301,59 @@ const Step4 = () => (
     <div>
         {/* <h3 className="text-lg font-medium mb-4">Step 2</h3> */}
         <div className="mb-4">
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Logo Link
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Logo Link"
             />
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Web Link
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Web Link"
             />
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Github Link
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Github Link"
             />
-            <label
+            {/* <label
                 className="block font-medium mb-2 text-gray-700"
                
             >
                 Twitter Link
-            </label>
+            </label> */}
             <input
                 type="text"
                 id="text"
                 name="text"
                 className="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Twitter Link"
             />
-            <textarea id="message" rows="2" class="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+            <textarea id="message" rows="2" class="mt-3 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Project description"></textarea>
 
         </div>
     </div>
